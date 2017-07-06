@@ -66,6 +66,6 @@ Now you'd have to Use the CLI:
 
     // Processing
 
-    Build for Both Complete, you can find the packages at dist/installers/
+    Build for Both Complete, you can find the Installer at dist/installers/
 ```
 
