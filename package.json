@@ -1,0 +1,27 @@
+{
+  "name": "electron-linux-install",
+  "version": "0.0.1-prebeta",
+  "description": "Merging Electron Installers for RedHat and Debian into one with cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakshMiglani/electron-linux-insaller.git"
+  },
+  "keywords": [
+    "Electron",
+    "linux",
+    "installer",
+    "electron-installer-linux",
+    "electron-installer-redhat",
+    "electron-installer-debian"
+  ],
+  "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DakshMiglani/electron-linux-insaller/issues"
+  },
+  "homepage": "https://github.com/DakshMiglani/electron-linux-insaller#readme"
+}
