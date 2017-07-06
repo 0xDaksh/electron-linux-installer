@@ -68,4 +68,25 @@ Now you'd have to Use the CLI:
 
     Build for Both Complete, you can find the Installer at dist/installers/
 ```
+### Programmatically
+First We Install the Module:
 
+```
+    npm install electron-linux-installer -S
+```
+
+Usage:
+
+```javascript
+    var install = require(__dirname + '/node_modules/electron-linux-installer/code.js')
+    install({
+        src: 'dist/app-linux-x64/', // source location
+        dest: 'dist/installers/', // destination of the installer
+        arch: 'x86_64', // or amd64
+        for: 'both' // can be debian or redhat
+    }).then(success => {
+        console.log(success)
+    }).catch(e => {
+        throw e
+    })
+```
