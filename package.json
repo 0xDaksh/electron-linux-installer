@@ -1,7 +1,7 @@
 {
   "name": "electron-linux-installer",
-  "version": "0.1.2-beta",
-  "description": "Merging Electron Installers for RedHat and Debian into one with cli",
+  "version": "0.1.3-beta",
+  "description": "An Easy to use CLI For Building Linux Installers (Debian / Redhat) Effortlessly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
