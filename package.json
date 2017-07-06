@@ -1,6 +1,6 @@
 {
   "name": "electron-linux-installer",
-  "version": "0.2.0-beta",
+  "version": "0.2.1-beta",
   "description": "An Easy to use CLI For Building Linux Installers (Debian / Redhat) Effortlessly.",
   "main": "index.js",
   "scripts": {
