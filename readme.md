@@ -47,7 +47,7 @@ $ electron-packager . app --platform linux --arch x64 --out dist/
 Now you'd have to Use the CLI:
 
 ```
-   $ electron-linux-installer
+   $ electron-build-linux
     | |   (_)_ __  _   ___  __    | __ ) _   _(_) | __| | ___ _ __ 
     | |   | | '_ \| | | \ \/ /____|  _ \| | | | | |/ _` |/ _ \ '__|
     | |___| | | | | |_| |>  <_____| |_) | |_| | | | (_| |  __/ |   
@@ -78,7 +78,7 @@ First We Install the Module:
 Usage:
 
 ```javascript
-    var install = require(__dirname + '/node_modules/electron-linux-installer/code.js')
+    var install = require('electron-linux-installer')
     install({
         src: 'dist/app-linux-x64/', // source location
         dest: 'dist/installers/', // destination of the installer
