@@ -1,2 +1,2 @@
-var main = require('./lib/main')
-module.exports = main
+var electronInstaller = require('./lib/index')
+module.exports = electronInstaller
