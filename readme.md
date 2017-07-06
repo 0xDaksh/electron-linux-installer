@@ -93,4 +93,4 @@ Usage:
 
 ## License
 
-Licensed by MIT 2017 to [Daksh Miglani](https://dak.sh).
+Licensed by MIT 2017 to [Daksh Miglani](https://dak.sh), Please Give Credit to the author when used :)
