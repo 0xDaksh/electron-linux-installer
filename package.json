@@ -28,6 +28,8 @@
     "chalk": "^2.0.1",
     "clear": "0.0.1",
     "clui": "^0.3.6",
+    "electron-installer-debian": "^0.5.2",
+    "electron-installer-redhat": "^0.5.0",
     "figlet": "^1.2.0",
     "inquirer": "^3.1.1",
     "minimist": "^1.2.0",
