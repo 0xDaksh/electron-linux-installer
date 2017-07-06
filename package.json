@@ -1,6 +1,6 @@
 {
   "name": "electron-linux-installer",
-  "version": "0.0.1-prebeta",
+  "version": "0.0.2-beta",
   "description": "Merging Electron Installers for RedHat and Debian into one with cli",
   "main": "index.js",
   "scripts": {
