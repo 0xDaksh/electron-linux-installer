@@ -82,7 +82,7 @@ Usage:
     install({
         src: 'dist/app-linux-x64/', // source location
         dest: 'dist/installers/', // destination of the installer
-        arch: 'x86_64', // or amd64
+        arch: 'x86_64', // x86_x64 would work both debian and rpm cause controllers are here.
         for: 'both' // can be debian or redhat
     }).then(success => {
         console.log(success)
@@ -90,3 +90,7 @@ Usage:
         throw e
     })
 ```
+
+## License
+
+Licensed by MIT 2017 to [Daksh Miglani](https://dak.sh).
